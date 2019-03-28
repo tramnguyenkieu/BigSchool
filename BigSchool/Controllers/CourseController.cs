@@ -15,6 +15,7 @@ namespace BigSchool.Controllers
         private readonly ApplicationDbContext _dbContext;
         // GET: Course
         //adsfafa
+        ///fsdgr
         public CourseController()
         {
             _dbContext = new ApplicationDbContext();
