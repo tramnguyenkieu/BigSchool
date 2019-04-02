@@ -42,7 +42,7 @@ namespace BigSchool.Controllers
             }
             var course = new Course
             {
-                LecturerId = User.Identity.GetUserId(),
+                Lecturer_Id = User.Identity.GetUserId(),
                 Datetime = viewModel.GetDateTime(),
                 CategoryId = viewModel.Category,
                 Place = viewModel.Place
